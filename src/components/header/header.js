@@ -37,10 +37,12 @@ function header() {
                     <span className="header_optionone">Make</span>
                     <span className="header_optiontwo">Requests</span>
                 </div>
-                <div className="header_option">
-                    <span className="header_optionone">Your</span>
-                    <span className="header_optiontwo">Requests</span>
-                </div>
+                <Link to="/orders">
+                    <div className="header_option">
+                        <span className="header_optionone">Your</span>
+                        <span className="header_optiontwo">Requests</span>
+                    </div>
+                </Link>
                 <Link to="/checkout">
                     <div className="header_optionBasket">
                         <ShoppingBasketIcon/>
